@@ -1,0 +1,179 @@
+header{
+     display: flex;
+     justify-content: space-between;
+     max-width:  5000px auto;
+     min-height: 70px;
+     max-height: 520px;
+     padding: 0px;
+     padding-right: 5px;
+     background-color: rgb(155, 192, 26) ;
+     border-color: grey;
+     border-radius: 5px;
+     border-style:solid ;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left:  15px;
+     margin-right: 15px;
+}
+.logo{
+     display: flex;
+}
+
+
+.logo img{
+    
+     margin-left: 0;
+     height: 250px;
+     width: 250px;
+}
+.logo h1{
+     padding-right: 0px;
+}
+h1{
+     font-size: 45px;
+     color: black;
+     font-family:fantasy;
+}
+*{
+     list-style: none;
+}
+.lista {
+
+     background-color:darkolivegreen;
+     border-radius: 5px;
+     border-color: black;
+     border-style: solid;
+     margin: 15px;
+     margin-left: 0px;
+}
+.menu{
+     margin-top: 5px;
+     padding-left: 25px;
+     padding-right: 15px;
+     margin-bottom: 5px;
+     display: inline-block;
+   
+}
+.menu a{
+     color: white;
+     text-decoration: none;
+     font-size: 23px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+   padding: 5 5 5 5px ;
+}
+
+.menu a:hover{
+     color: aquamarine;
+}
+
+
+.submenu1{
+     background-color: black;
+     display: none;
+     padding-left: 5px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     border-color: black;
+     border-style: solid;
+     border-radius: 5px;
+}
+.submenu1 a:hover{
+     color: rgb(225, 255, 119);
+}
+
+.menu li:hover .submenu1{
+     display: block;
+}
+
+.submenu2{
+     background-color: black;
+      display: none;
+     border-radius: 5px;
+     border-style: solid;
+     border-color: black;
+     padding-left: 0px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+}
+.submenu2 a:hover{
+     color: rgb(225, 255, 119);
+}
+.menu li:hover .submenu2{
+     display: block;
+}
+
+body{
+     background-color: black;
+}
+
+/* contenido */
+
+.contenido{
+     display: block;
+     border-color:rgb(48, 48, 48) ;
+     border-radius: 5px;
+     border-style: solid;
+     background-color: rgb(155, 192, 26);
+     margin-right:80px ;
+     margin-left:80px;
+}
+.contenido h1{
+     text-align: center;
+     font-size: 80px;
+}
+.contenido img{
+          border-radius: 5px;
+          border-color:black;
+          border-style:solid ;
+          width: auto;
+          height: 188px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          display: flex;
+          margin: auto;
+          margin-top: 10px;
+          margin-bottom: 10px;
+}
+.contenido p{
+     text-align: center;
+     font-size: 45px;
+}
+.contenido a{
+     color: black;
+     text-decoration: none;
+     margin: 100px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-color: black;
+     border-style: solid;
+     border-radius: 5px;
+     font-family:sans-serif;
+
+}
+.contenido a:hover{
+     color:darkgreen;
+}
+.formulario{
+     text-align: center;
+    
+}
+#nombre {
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#apellido{
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#comentario{
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formulario button{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     text-align: center;
+     margin-bottom: 10px;
+}
