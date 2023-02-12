@@ -1,0 +1,461 @@
+* {
+  list-style: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+body {
+  background: linear-gradient(#7adfdf45, #66b0b645),
+    url("https://w0.peakpx.com/wallpaper/908/827/HD-wallpaper-clouds-sky-cloudy-dark-weather.jpg");
+
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: rgb(63, 73, 73);
+  height: 100px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.332);
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  text-transform: uppercase;
+  margin-left: 20px;
+  background: linear-gradient(#03c988, #7fc8a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container h1:hover {
+  background: linear-gradient(#7fc8a9, #03c988);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#btn-menu {
+  font-size: 40px;
+  padding-top: 20px;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.Btn-menu {
+  display: flex;
+}
+
+.Btn-menu .bx-chevrons-down,
+.bx-chevrons-up {
+  display: none;
+}
+
+#btn-menu:hover {
+  background: linear-gradient(#7fc8a9, #03c988);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Infomación */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  border: rgb(0, 0, 0) solid;
+  border-radius: 20px;
+  margin-top: 20px;
+  max-width: 900px;
+  height: auto;
+  padding: 10px;
+  background: linear-gradient(#27272760, #04444460);
+}
+.informacion-Reytero {
+  color: #03c988;
+  text-shadow: 0.5px 0.5px 5px #000000;
+}
+
+.informacion-Reytero h2 {
+  transition: all 280ms ease-in;
+  font-size: 28px;
+}
+.informacion-Reytero h2:hover {
+  text-shadow: 0.5px 0.5px 5px #09f9a9;
+  transform: scale(1.2);
+  color: #64ffcb;
+}
+
+.informacion-Reytero h3 {
+  transition: all 350ms ease;
+  display: flex;
+  width: 333px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+hr {
+  width: auto;
+}
+
+.informacion-Reytero h3:hover {
+  color: #93ffd2;
+  text-decoration: underline;
+  transform: scale(1.1);
+  text-shadow: 0.5px 0.5px 5px #03c988;
+}
+
+/* Cardgames */
+
+.Juegos {
+  display: flex;
+  background: linear-gradient(#04444460, #27272760);
+  width: auto;
+  padding: 10px;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-style: solid;
+  max-width: 900px;
+  text-align: center;
+  border-color: rgba(0, 0, 0, 0.313);
+}
+
+.Juegos h2 {
+  color: #03c988;
+  text-shadow: 0.5px 0.5px 35px #000000;
+  font-size: 28px;
+  text-transform: uppercase;
+  transition: all 355ms ease;
+}
+
+.Juegos h2:hover {
+  color: #93ffd2;
+  text-shadow: 2px 2px 15px #03c988;
+  text-decoration: underline;
+}
+
+.cardGames {
+  display: inline-block;
+  text-align: center;
+  background-position: cover;
+  background: linear-gradient(#2727277c, #04444484),
+    url("https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  padding: 20px;
+  width: auto;
+  max-width: 230px;
+  margin: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  transition: all 300ms ease;
+  border-color: rgb(0, 0, 0);
+}
+
+.cardGames img {
+  border-radius: 10px;
+  width: 176px;
+  height: 176px;
+}
+
+.cardGames:hover {
+  transform: translateY(-5px);
+}
+
+.cardGames a {
+  color: #000000;
+  transition: all 300ms ease;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Valorant {
+  text-shadow: 0.5px 0.5px 5px #fa9c1d;
+}
+
+.Valorant:hover {
+  color: #fa9c1d;
+  transform: rotate(1deg);
+}
+
+.Warzone {
+  text-shadow: 0.5px 0.5px 5px #93ffd2;
+}
+.Warzone:hover {
+  color: #03c988;
+  transform: rotate(1deg);
+  transition: all 300ms ease;
+  text-shadow: 0.5px 0.5px 1px #68b984;
+}
+
+.Gta {
+  text-shadow: 0.5px 0.5px 5px #324186;
+}
+
+.Gta:hover {
+  color: rgb(20, 20, 20);
+  transform: rotate(1deg);
+  text-shadow: 0.5px 0.5px 1px #324186;
+}
+/* StreamCards*/
+.streamers {
+  display: flex;
+  background: linear-gradient(#04444460, #27272760);
+  width: auto;
+  padding: 10px;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-style: solid;
+  max-width: 900px;
+  text-align: center;
+  border-color: rgba(0, 0, 0, 0.313);
+}
+
+.Stream-tittle {
+  color: #03c988;
+  font-size: 28px;
+  text-transform: uppercase;
+
+  transition: all 355ms ease;
+}
+
+.Stream-tittle:hover {
+  color: #93ffd2;
+  text-shadow: 2px 2px 15px #03c988;
+  text-decoration: underline;
+}
+
+.streamCards {
+  display: inline-block;
+  text-align: center;
+  background-position: cover;
+  background: linear-gradient(#2727277c, #04444484),
+    url("https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  padding: 20px;
+  width: auto;
+  max-width: 230px;
+  margin: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  transition: all 300ms ease;
+  border-color: rgb(0, 0, 0);
+}
+.streamCards img {
+  max-width: 176px;
+  max-height: 176px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.313);
+  transition: all 800ms ease;
+}
+.streamCards a {
+  transition: all 300ms ease;
+  color: #000000;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nexxuz {
+  text-shadow: 0.5px 0.5px 5px red;
+}
+
+.nexxuz:hover {
+  color: red;
+  text-shadow: 0.5px 0.5px 5px rgb(0, 0, 0);
+}
+
+.raptor {
+  text-shadow: 0.5px 0.5px 5px orange;
+}
+
+.raptor:hover {
+  color: orange;
+  text-shadow: 0.5px 0.5px 5px rgb(0, 0, 0);
+}
+
+.Vector {
+  text-shadow: 0.5px 0.5px 5px #810000;
+}
+
+.Vector:hover {
+  color: #810000;
+}
+
+.streamCards:hover {
+  transform: translateY(-5px);
+  perspective: (500px);
+}
+/* Main */
+
+@media (max-width: 750px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .titulo1 {
+    display: none;
+    color: #3f4e4f;
+  }
+  .titulo2 {
+    display: block;
+  }
+  .hr1 {
+    display: block;
+    width: 100%;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0 auto;
+  margin-right: 350px;
+
+  max-width: 950px;
+  text-align: center;
+}
+
+.cabimas {
+  display: none;
+}
+.cabimas2 {
+  transition: all 5s ease-in-out;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  body {
+    background: #000000;
+  }
+  header {
+    background: linear-gradient(#272727, #044444);
+    height: 120px;
+  }
+
+  .streamCards {
+    margin: 5px;
+  }
+  .cardGames {
+    margin: 5px;
+  }
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Btn-menu .bx-chevrons-down {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  .Btn-menu .bx-menu {
+    display: none;
+  }
+  .informacion-Reytero {
+    padding: 30px;
+  }
+}
+
+/* menu */
+
+.container-menu {
+  display: none;
+  transition: all 500ms ease;
+}
+.cont-menu {
+  display: none;
+  transition: all 500ms ease;
+}
+.cont-menu i {
+  display: none;
+}
+
+.container-menu2 {
+  width: 212.5vh;
+  background: #00000068;
+  position: absolute;
+  height: 213vh;
+  top: 0;
+  left: 0;
+  transition: 400ms;
+}
+
+.cont-menu2 {
+  display: flex;
+  padding: 10px;
+  background: rgb(15, 15, 15);
+
+  flex-direction: column;
+  width: 200px;
+  height: 50%;
+  position: relative;
+  margin: 0;
+  transition: 400ms;
+  top: 0;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cont-menu2 a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  transition: all 500ms ease;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cont-menu2 li {
+  transition: all 300ms ease;
+}
+
+.cont-menu2 li:hover {
+  background: #3f4e4f55;
+  padding: 20px;
+  box-shadow: 0.5px 0.5px 10px rgb(115, 115, 115);
+  text-shadow: 0.5px 0.5px 5px rgb(115, 115, 115);
+  border-radius: 15px;
+  border: rgb(115, 115, 115) 3px solid;
+}
+
+.cont-menu2 li:hover a {
+  color: rgb(115, 115, 115);
+}
+.cont-menu2 li:hover i {
+  color: rgb(115, 115, 115);
+}
+
+.cont-menu2 .Links {
+  background: rgb(15, 15, 15);
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cont-menu2 i {
+  color: white;
+  transition: all 500ms ease;
+}
+
+.bx-x {
+  width: 30px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.bx-x:hover {
+  color: rgb(115, 115, 115);
+}
