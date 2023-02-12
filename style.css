@@ -394,7 +394,7 @@ hr {
 .cont-menu2 {
   display: flex;
   padding: 10px;
-  background: rgb(15, 15, 15);
+  background: linear-gradient(#1a1a1a, #0444445a);
 
   flex-direction: column;
   width: 200px;
@@ -410,7 +410,7 @@ hr {
 .cont-menu2 a {
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: #03c988;
   transition: all 500ms ease;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -422,21 +422,20 @@ hr {
 .cont-menu2 li:hover {
   background: #3f4e4f55;
   padding: 20px;
-  box-shadow: 0.5px 0.5px 10px rgb(115, 115, 115);
-  text-shadow: 0.5px 0.5px 5px rgb(115, 115, 115);
+  box-shadow: 2px 2px 15px #03c988;
+  text-shadow: 2px 2px 15px #03c988;
   border-radius: 15px;
-  border: rgb(115, 115, 115) 3px solid;
+  border: #03c988 3px solid;
 }
 
 .cont-menu2 li:hover a {
-  color: rgb(115, 115, 115);
+  color: #93ffd2;
 }
 .cont-menu2 li:hover i {
-  color: rgb(115, 115, 115);
+  color: #93ffd2;
 }
 
 .cont-menu2 .Links {
-  background: rgb(15, 15, 15);
   height: 90%;
   display: flex;
   justify-content: space-around;
@@ -444,7 +443,7 @@ hr {
 }
 
 .cont-menu2 i {
-  color: white;
+  color: #03c988;
   transition: all 500ms ease;
 }
 
